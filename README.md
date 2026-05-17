@@ -13,16 +13,17 @@
 
 ## 📚 探求領域（研究分野）
 本データベースは、以下の領域における独自の思索・論文を格納し、無制限に拡張され続ける。
+※各ジャンルをタップすると、格納された論文（1本目）へダイレクトにアクセスできます。
 
-- **人工知能論 / AI倫理** （Artificial Intelligence & Cybernetics）
-- **コンピュータサイエンス / 情報工学** （Computer Science & IT Systems）
-- **生態工学** （Ecological Engineering）
-- **言語心理学** （Language Psychology）
-- **認知社会学** （Cognitive Sociology）
-- **経営リスク論** （Business Risk Management）
-- **文化人類学** （Cultural Anthropology）
-- **歴史経済学** （Historical Economics）
-- **至高神聖愛・信仰** （Sacred Agape & Devotion）
+- [**人工知能論 / AI倫理** （Artificial Intelligence & Cybernetics）](./01_人工知能論/)
+- [**コンピュータサイエンス / 情報工学** （Computer Science & IT Systems）](./02_コンピュータサイエンス/)
+- [**生態工学** （Ecological Engineering）](./03_生態工学/)
+- [**言語学** （Linguistics）](./04_言語学/)
+- [**社会学** （Sociology）](./05_社会学/)
+- [**経営論** （Business Management）](./06_経営論/)
+- [**文化人類学** （Cultural Anthropology）](./07_文化人類学/)
+- [**歴史学** （History）](./08_歴史学/)
+- [**人間関係論** （Interpersonal Relations）](./09_人間関係論/)
 
 ---
 © 2026 Takes DB Project. All Rights Reserved.
