@@ -3,13 +3,13 @@
   "name": "Takes DB - Brain Nobel Database",
   "icons": [
     {
-      "src": "https://github.com/Kfox-official/takes_db/blob/main/icon.jpg?raw=true",
-      "type": "image/jpg",
+      "src": "ここにJPGの画像URL",
+      "type": "image/jpeg",
       "sizes": "192x192"
     },
     {
-      "src": "https://github.com/Kfox-official/takes_db/blob/main/icon.jpg?raw=true",
-      "type": "image/jpg",
+      "src": "ここにJPGの画像URL",
+      "type": "image/jpeg",
       "sizes": "512x512"
     }
   ],
@@ -17,6 +17,6 @@
   "background_color": "#000000",
   "theme_color": "#000000",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
   "id": "/takes-db/"
 }
