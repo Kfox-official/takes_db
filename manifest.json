@@ -3,13 +3,13 @@
   "name": "Takes DB - Brain Nobel Database",
   "icons": [
     {
-      "src": "https://pub-c5e31b5cdafb419a91624d1024ee27ec.r2.dev/mock_logo.png",
-      "type": "image/png",
+      "src": "https://github.com/Kfox-official/takes_db/blob/main/icon.jpg?raw=true",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "https://pub-c5e31b5cdafb419a91624d1024ee27ec.r2.dev/mock_logo.png",
-      "type": "image/png",
+      "src": "https://github.com/Kfox-official/takes_db/blob/main/icon.jpg?raw=true",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],
