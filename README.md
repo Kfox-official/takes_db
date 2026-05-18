@@ -37,3 +37,4 @@
 
 ---
 © 2025 Takes DB Project. All Rights Reserved.
+©2021-2024 Kfox | GitHub /Kfox-official | XDA Forums /Kfox | YouTube /Kfox-OGitHub /Kfox-official | XDA Forums /Kfox | YouTube @Kfox_Official
