@@ -36,4 +36,4 @@
 - [**人間関係論** （Interpersonal Relations）](./09_人間関係論/)
 
 ---
-© 2024 Takes DB Project. All Rights Reserved.
+© 2025 Takes DB Project. All Rights Reserved.
