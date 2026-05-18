@@ -33,7 +33,7 @@
 ### 📄 参考文献
 - Andrew Ng, “AI Transformation and Operational Constraints,” 2025.
 - Ben Thompson, “Apple and Google: Strategic AI Partnerships,” Stratechery, 2026.
-- Sunrise, *Mobile Suit Gundam NT* (2018). NT-D（ニュータイプデストロイヤーシステム）をAIの制御困難性の比喩として参照。
+- Sunrise, *Mobile Suit Gundam NT* (2018). NT-D（ニュータイプデストロイヤーシステム）
 
 ---
 [🏠 トップページへ戻る](../)
