@@ -1,3 +1,5 @@
+<link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/Kfox-official/takes_db/refs/heads/main/icon.jpg">
+
 # 📱 たけのデータベース
 
 かつて様々な学術・研究分野において他者を圧倒し続け、元ノーベル賞候補とまで証われた天才「たけ」。
