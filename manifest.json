@@ -1,0 +1,22 @@
+{
+  "short_name": "TakesDB",
+  "name": "Takes DB - Brain Nobel Database",
+  "icons": [
+    {
+      "src": "https://pub-c5e31b5cdafb419a91624d1024ee27ec.r2.dev/mock_logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://pub-c5e31b5cdafb419a91624d1024ee27ec.r2.dev/mock_logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait"
+  "id": "/takes-db/"
+}
