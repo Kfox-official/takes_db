@@ -1,4 +1,4 @@
-<link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/Kfox-official/takes_db/refs/heads/main/icon.jpg">
+<link rel="icon" type="image/jpg" href="https://raw.githubusercontent.com/Kfox-official/takes_db/refs/heads/main/icon.jpg">
 
 # 📱 たけのデータベース
 
