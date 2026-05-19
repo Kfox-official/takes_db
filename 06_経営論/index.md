@@ -1,4 +1,4 @@
-# 経営論 （Business Management）
+# 📊 経営論 （Business Management）
 
 大企業の資本論から中小店舗の生存戦略まで、表面的な数字の裏に隠された「経済的合理性」を冷徹に解体する領域。
 
