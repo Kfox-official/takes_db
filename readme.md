@@ -36,6 +36,7 @@
 - [**文化人類学** （Cultural Anthropology）](./07_文化人類学/)
 - [**歴史学** （History）](./08_歴史学/)
 - [**人間関係論** （Interpersonal Relations）](./09_人間関係論/)
+- [**宇宙物理学** （Astrophysics）](./10_宇宙物理学/)
 
 ---
 © 2025 Takes DB Project. All Rights Reserved.
