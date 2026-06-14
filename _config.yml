@@ -1,5 +1,3 @@
+Remote_theme: pages-themes/midnight@v0.2.0
 title: "TAKES_DB"
 lang: ja
-
-# リモートテーマを無効化し、リポジトリ内の _layouts/default.html を最優先にする
-theme: []
