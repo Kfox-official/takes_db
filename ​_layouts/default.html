@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "ja" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/jpg" href="https://raw.githubusercontent.com/Kfox-official/takes_db/refs/heads/main/icon.jpg">
+    <title>{{ page.title | default: site.title }}</title>
+    
+    <style>
+        /* 画面全体の文字サイズを大きく、読みやすく固定 */
+        body, .wrapper, section, p, li {
+            font-size: 18px !important; /* 文字をガッツリ大きく */
+            line-height: 1.8 !important;
+            color: #c9d1d9 !important; /* 読みやすい明るいグレー */
+        }
+        
+        /* 見出しのメリハリを絶対固定 */
+        h1 { font-size: 2.2rem !important; color: #f0f6fc !important; border-bottom: 2px solid #21262d !important; padding-bottom: 0.4em; }
+        h2 { font-size: 1.7rem !important; color: #f0f6fc !important; border-bottom: 1px solid #21262d !important; padding-bottom: 0.3em; margin-top: 40px; }
+        h3 { font-size: 1.3rem !important; color: #f0f6fc !important; }
+        
+        /* テキストの配置調整 */
+        p { text-align: justify !important; margin: 1.2em 0 !important; }
+        
+        /* 重要な太字を「たけピンク」に強制置換 */
+        strong { color: #ff79c6 !important; font-weight: bold !important; }
+        
+        /* リンクの色もサイバーブルーに固定 */
+        a { color: #58a6ff !important; text-decoration: none !important; font-weight: bold !important; }
+        a:hover { color: #ff79c6 !important; text-decoration: underline !important; }
+        
+        /* 引用（blockquote）のサイバー化 */
+        blockquote {
+            margin: 1.5em 0 !important;
+            padding: 12px 20px !important;
+            color: #8b949e !important;
+            border-left: 4px solid #ff79c6 !important;
+            background-color: #161b22 !important;
+            border-radius: 4px;
+        }
+
+        /* 戻るボタンやフッターの調整 */
+        .footer { text-align: center; margin-top: 60px; color: #8b949e; font-size: 0.85em; border-top: 1px solid #21262d; padding-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        </header>
+        
+        <section>
+            {{ content }}
+        </section>
+    </div>
+
+    <div class="footer">
+        © 2026 Takes DB Project. All Rights Reserved.
+    </div>
+
+</body>
+</html>
+
