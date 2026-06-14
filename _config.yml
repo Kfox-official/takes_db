@@ -1,6 +1,6 @@
 title: "TAKES_DB"
 lang: ja
-theme: null
+theme: pages-themes/midnight@v0.2.0
 
 # 👇 これを追記：すべてのマークダウンファイルに自動で default レイアウトを適用する
 defaults:
