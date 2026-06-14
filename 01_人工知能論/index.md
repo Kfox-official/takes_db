@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 🧠 人工知能論 / AI倫理（Artificial Intelligence & Cybernetics）
 
 高度な人工知能の進化がもたらす社会構造の変革、巨大資本の戦略、そして制御可能性の限界について、独自の合理性とシステム論を用いて解体する領域。
