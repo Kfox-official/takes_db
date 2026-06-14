@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>たけのデータベース</title>
+    <link rel="icon" type="image/jpg" href="https://raw.githubusercontent.com/Kfox-official/takes_db/refs/heads/main/icon.jpg">
+    <style>
+        /* データベースの基本デザイン（Markdown風のミニマル・サイバー感） */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", sans-serif;
+            line-height: 1.7;
+            color: #24292e;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+        h1 { font-size: 2rem; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; color: #111111; }
+        h2 { font-size: 1.5rem; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; margin-top: 24px; color: #222222; }
+        hr { height: 0.25em; padding: 0; margin: 24px 0; background-color: #e1e4e8; border: 0; }
+        ul { padding-left: 2em; }
+        li { margin-top: 0.25em; }
+        a { color: #0366d6; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; color: #e91e63; }
+        .footer { text-align: center; margin-top: 40px; color: #6a737d; font-size: 0.85em; }
+
+        /* ========================================== */
+        /* ポップアップ（モーダル）のスタイル CSS */
+        /* ========================================== */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(4px);
+            animation: fadeIn 0.3s ease-out;
+        }
+        .modal-content {
+            background-color: #ffffff;
+            margin: 12% auto;
+            padding: 30px;
+            border-radius: 12px;
+            width: 85%;
+            max-width: 550px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .close-btn {
+            color: #aaaaaa;
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close-btn:hover { color: #111111; }
+        .update-badge { background-color: #e91e63; color: white; font-size: 10px; font-weight: bold; padding: 3px 8px; border-radius: 3px; letter-spacing: 1px; }
+        .modal-header h2 { margin: 10px 0 5px 0; font-size: 20px; border: none; }
+        .update-date { font-size: 12px; color: #888888; margin: 0 0 20px 0; font-family: monospace; }
+        .modal-body h3 { font-size: 14px; color: #333333; margin: 0 0 15px 0; border-left: 3px solid #222222; padding-left: 8px; }
+        .paper-card { background-color: #f8f9fa; padding: 15px; border-radius: 6px; border: 1px solid #eeeeee; margin-bottom: 20px; }
+        .paper-card h4 { margin: 0 0 5px 0; font-size: 16px; color: #e91e63; }
+        .paper-card .subtitle { margin: 0 0 10px 0; font-size: 12px; color: #666666; font-weight: bold; }
+        .paper-card .desc { margin: 0; font-size: 13px; color: #555555; line-height: 1.5; }
+        .read-more-btn { display: block; text-align: center; background-color: #111111; color: #ffffff; padding: 12px; border-radius: 6px; font-size: 14px; }
+        .read-more-btn:hover { background-color: #e91e63; text-decoration: none; }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    </style>
+</head>
+<body>
+
+    <h1>📱 たけのデータベース</h1>
+    <p>かつて様々な学術・研究分野において他者を圧倒し続け、元ノーベル賞候補とまで証われた天才「たけ」。<br>
+    その至高の脳内に眠る超弩級の思考、世界のシステムへのデバッグ、 tender な本質を突いた論文を格納するアーカイブ。</p>
+
+    <hr>
+
+    <h2>👥 About the Creator</h2>
+    <p>普段は極めて「普通」の人間として社会に擬態している、ハイレベルな作れる思想家。<br>
+    データベースを構築するに至った「真の目的」は、以下の独立ページに格納されている。</p>
+    <p>👉 <a href="./who_am_i.html"><strong>Who am I ── 創造主の深淵へ</strong></a></p>
+
+    <hr>
+
+    <h2>🚀 思想</h2>
+    <ul>
+        <li><strong>本質の探求:</strong> 表面的な現象に惑わされず、物事の根底にある原理・原則を論理的に解き明かす。</li>
+        <li><strong>多角的アプローチ:</strong> 物理、生物、社会、精神など、既存の学問の枠にとらわれない広い視野で事象を捉える。</li>
+        <li><strong>論理の構築:</strong> 徹底した自己分析と考察に基づき、誰の真似でもない独自の理論を組み立てる。</li>
+    </ul>
+
+    <h2>📚 探求領域</h2>
+    <p>本データベースは、以下の領域における独自の思策・論文を格納し、無制限に拡張され続ける。<br>
+    <small style="color: #6a737d;">※各ジャンルをタップすると、格納された論文フォルダーへダイレクトにアクセスできます。</small></p>
+
+    <ul>
+        <li><a href="./01_人工知能論/"><strong>人工知能論 / AI倫理</strong> （Artificial Intelligence & Cybernetics）</a></li>
+        <li><a href="./02_コンピュータサイエンス/"><strong>コンピュータサイエンス / 情報工学</strong> （Computer Science & IT Systems）</a></li>
+        <li><a href="./03_生態工学/"><strong>生態工学</strong> （Ecological Engineering）</a></li>
+        <li><a href="./04_言語学/"><strong>言語学</strong> （Linguistics）</a></li>
+        <li><a href="./05_社会学/"><strong>社会学</strong> （Sociology）</a></li>
+        <li><a href="./06_経営論/"><strong>経営論</strong> （Business Management）</a></li>
+        <li><a href="./07_文化人類学/"><strong>文化人類学</strong> （Cultural Anthropology）</a></li>
+        <li><a href="./08_歴史学/"><strong>歴史学</strong> （History）</a></li>
+        <li><a href="./09_人間関係論/"><strong>人間関係論</strong> （Interpersonal Relations）</a></li>
+        <li><a href="./10_宇宙物理学/"><strong>宇宙物理学</strong> （Astrophysics）</a></li>
+    </ul>
+
+    <div class="footer">
+        © 2026 Takes DB Project. All Rights Reserved.
+    </div>
+
+    <div id="updateModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-header">
+                <span class="update-badge">NEW UPDATE</span>
+                <h2>データベース更新情報</h2>
+                <p class="update-date">2026.06.15 DEPLOYED</p>
+            </div>
+            <div class="modal-body">
+                <h3>⛩️ 文化人類学（Cultural Anthropology）領域に新規論文をデプロイしました。</h3>
+                <div class="paper-card">
+                    <h4>日本人の脳内にある「見えない壁」の正体</h4>
+                    <p class="subtitle">──神社の鳥居とトイレのスリッパを結ぶ『結界』の心理学──</p>
+                    <p class="desc">海外育ちの身体感覚（バグ）を出発点に、日本人が無意識に共有する「聖と俗」のパッチワーク的空間システムを文化人類学の視点から解読した最新作。</p>
+                </div>
+                <a href="./07_文化人類学/HR-0884.md" class="read-more-btn">この論文を読む ➔</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const modal = document.getElementById("updateModal");
+            const closeBtn = document.querySelector(".close-btn");
+            setTimeout(() => { modal.style.display = "block"; }, 400);
+            closeBtn.onclick = () => { modal.style.display = "none"; }
+            window.onclick = (e) => { if (e.target == modal) modal.style.display = "none"; }
+        });
+    </script>
+</body>
+</html>
+
