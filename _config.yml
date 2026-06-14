@@ -1,6 +1,6 @@
-Remote_theme: pages-themes/midnight@v0.2.0
 title: "TAKES_DB"
 lang: ja
+theme: null
 
 # 👇 これを追記：すべてのマークダウンファイルに自動で default レイアウトを適用する
 defaults:
