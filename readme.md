@@ -39,4 +39,13 @@
 - [**宇宙物理学** （Astrophysics）](./10_宇宙物理学/)
 
 ---
+
+## 🔓 特別収蔵庫
+
+本データベースにおいて唯一、
+学術研究ではなく実践技術と文化史を扱う領域。
+
+👉 [**Android Archives**](./android/index.html)
+
+---
 © 2025 Takes DB Project. All Rights Reserved.
